@@ -28,7 +28,7 @@ Ntime=length(tt)-1;
 h=1;
 
 selected_index_times=0:1:Ntime;
-selected_index_times=[20 48]; %[1,2,21,41,46,49]-1;
+% selected_index_times=[20 48]; %[1,2,21,41,46,49]-1;
 for iter=selected_index_times
     disp(['time: ',num2str(tt(iter+1))])
     expmiu=1;
